@@ -32,7 +32,7 @@ class TodoEdit extends Component {
                     id='task'
                     value={this.state.task}
                 />
-                <button className='todo' onClick={this.editTask}><i className="fa fa-check" aria-hidden="true"></i></button>
+                <button className='todo' title='Done' onClick={this.editTask}><i className="fa fa-check" aria-hidden="true"></i></button>
             </div >
         )
     }
