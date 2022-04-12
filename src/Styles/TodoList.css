@@ -6,8 +6,6 @@
 html,
 body {
   background: linear-gradient(135deg ,#006400,#008000,#008000,#006400);
-
-
   font-size: 1rem;
   height: 100%;
 }
@@ -16,7 +14,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   width: 40%;
-  min-height: 2em;
+  min-height: 30em;
   margin: 2em auto;
   padding: 2rem 2rem 2rem 2rem;
   background: #ffffff;
@@ -76,6 +74,19 @@ body {
     background: #ffffff;
     border-radius: 0.5em;
   }
+}
+
+.allTasks{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 20em;
+}
+.line{
+  transform: translate(-4.5%, 0);
+  border-bottom: 3px solid #008000 ;
+  left: -5em;
+  width: 110%;
 }
 
 .header {
