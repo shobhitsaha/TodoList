@@ -85,8 +85,9 @@ class TodoList extends Component {
                     <p>An app that manages all your work</p>
                 </div>
 
-                <div>{Displaytask}</div>
+                <div className='allTasks'>{Displaytask}</div>
 
+                <div className="line"></div>
                 <TodoListForm addTask={this.addTask} />
             </section>
         )
